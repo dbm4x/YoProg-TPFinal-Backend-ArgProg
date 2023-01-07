@@ -481,7 +481,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'admin@admin.com','ACA EL PASS EN bcrypt',1,'Lanfranco Caballero',NULL,NULL,NULL),(6,'jijo','OTRO USER PASS BCRYPT',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO `usuario` VALUES (1,'test@test.io','ACA EL PASS EN bcrypt',1,'Lanfranco Caballero',NULL,NULL,NULL),(6,'jijo','OTRO USER PASS BCRYPT',NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!50112 SET @disable_bulk_load = IF (@is_rocksdb_supported, 'SET SESSION rocksdb_bulk_load = @old_rocksdb_bulk_load', 'SET @dummy_rocksdb_bulk_load = 0') */;
